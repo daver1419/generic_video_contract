@@ -10,4 +10,6 @@ public interface MediaStatus {
     boolean isPrepared();
 
     void setAutoPlay(boolean autoPlay);
+
+    boolean canAutoPlay();
 }
